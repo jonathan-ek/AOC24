@@ -1,0 +1,4 @@
+[submodule "input"]
+	path = input
+	url = git@github.com:jonathan-ek/AOC24-input.git
+	branch = master
