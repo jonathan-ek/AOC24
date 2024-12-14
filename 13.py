@@ -13,9 +13,8 @@ def a():
         x = (price_x - eq_b_x * y) / eq_a_x
         if x.is_integer() and y.is_integer():
             if 0 <= x <= 100 and 0 <= y <= 100:
-                tokens += int(x)*3 + int(y)
+                tokens += int(x) * 3 + int(y)
     print(tokens)
-
 
 
 def b():
